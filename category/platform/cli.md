@@ -6,7 +6,7 @@
 本章程依据《量潮软件工程章程》制定，参照 Google 命令行工具实践：[Fuchsia 命令行界面规范](https://fuchsia.googlesource.com/fuchsia/+/main/docs/development/api/cli.md)、[Google Cloud CLI 命令约定](https://cloud.google.com/sdk/gcloud/reference/topic/command-conventions)、[Google 开发者文档风格指南](https://developers.google.com/style/code-syntax)与 [Abseil 选项指南](https://abseil.io/docs/python/guides/flags)，规范量潮命令行工具的设计、输出与演进。
 
 **第二条 适用范围**
-本章程适用于量潮科技所有面向人与机器调用的命令行工具，包括平台 CLI（如 `qtcloud-execute`、`qtcloud-work`）、运维脚本入口与工具箱可执行文件。库的内部 API 不在本章程约束范围内。
+本章程适用于量潮科技所有面向人与机器调用的命令行工具，包括平台 CLI（如 `qtcloud-execute`、`qtcloud-work`）、运维脚本入口与标准库可执行文件。库的内部 API 不在本章程约束范围内。
 
 **第三条 基本原则**
 
